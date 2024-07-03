@@ -1,0 +1,19 @@
+{
+  "name": "healthy-food",
+  "version": "1.0.0",
+  "description": "website",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "khtab",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.1"
+  },
+  "dependencies": {
+    "@parcel/packager-raw-url": "^2.9.2",
+    "@parcel/transformer-webmanifest": "^2.9.2"
+  }
+}
